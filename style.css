@@ -1,0 +1,54 @@
+.ui-datepicker{
+    background: white !important;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi{
+    width: 23em !important;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-buttonpane.ui-widget-content button.ui-datepicker-current.ui-state-default.ui-priority-secondary.ui-corner-all{
+    display: none;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-buttonpane.ui-widget-content button.ui-datepicker-close.ui-state-default.ui-priority-primary.ui-corner-all{
+    display: none;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-first div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-left{
+    display: flex;
+    justify-content: space-between;
+   
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-first div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-left a.ui-datepicker-prev.ui-corner-all span.ui-icon.ui-icon-circle-triangle-w{
+    visibility: hidden;
+}
+
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-first div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-left a.ui-datepicker-prev.ui-corner-all span.ui-icon.ui-icon-circle-triangle-w:after{
+    visibility: visible;
+    content: '\f0a9';
+    width: 0%;
+    /* font-size: 3em !important; */
+    font-weight: bolder;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-first div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-left div.ui-datepicker-title{
+    margin-top: 25px !important;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-last div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-last div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-right a.ui-datepicker-next.ui-corner-all span.ui-icon.ui-icon-circle-triangle-e{
+    visibility: hidden;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-last div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-right a.ui-datepicker-next.ui-corner-all span.ui-icon.ui-icon-circle-triangle-e:after{
+    visibility: visible;
+    content: '\2192';
+    /* font-size: 3em !important; */
+    font-weight: bolder;
+}
+html body div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi div.ui-datepicker-group.ui-datepicker-group-last div.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-right div.ui-datepicker-title{
+    margin-top: 25px !important;
+}
